@@ -42,7 +42,7 @@
 	--backdrop:						rgba(0,0,0,0.85);			/* default: rgba(0,0,0,0.85)	(change to use another background/color for backdrops)							*/
 	--backdropposition:				center;						/* default: center				(position of backdrop - values: [center/top/right/bottom/left])					*/
 	--backdropsize:					cover;						/* default: cover				(sizefit of backdrop - values: [cover/contain/auto])							*/
-	--backdropblur:					unset;						/* default: unset				(blur in px, only works when --backdrop is set to an image)						*/
+	--backdropblur:					10;						/* default: unset				(blur in px, only works when --backdrop is set to an image)						*/
 	
 	--textbrightest: 				255,255,255;				/* default: 255,255,255			(text color for the brightest texts)											*/
 	--textbrighter: 				222,222,222;				/* default: 222,222,222			(text color for brighter texts)													*/
